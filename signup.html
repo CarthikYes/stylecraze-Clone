@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/signup.css">
+</head>
+<body>
+    <div id="signupcontainer">
+        <div id="signhead">
+            <h1>CREATE ACCOUNT</h1>
+        </div>
+        <div id="signdetails">
+            <div>
+            <p id="signp">Name*</p>
+            <input id="name" type="text" placeholder="">
+            </div>
+            <div>
+                <p id="signp">Email*</p>
+                <input id="email" type="email">
+            </div>
+            <div>
+                <p id="signp">Password*</p>
+                <input id="pass" type="password">
+                <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+            </div>
+            <div>
+                <p id="signp">Phone Number*</p>
+                <input id="mobile" type="text">
+            </div>
+            <div>
+                <button id="signupbtn" onclick="createUser()">CREATE</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="./script/signup.js"></script>
+

@@ -1,0 +1,227 @@
+        /* header */
+header {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+#header {
+    
+    height: max-content;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px;
+    /* margin-top: 10px; */
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: black;
+}
+#header > div {
+    
+    color: black; 
+    padding-right: 20px;
+    border-right: 2px solid red;
+    /* text-decoration: 0; */
+    
+}
+#header > div > a{
+    color: black;
+    text-decoration: 0;
+}
+#header > div:last-child {
+    border-right: 0;
+}
+
+
+.search-container {
+/* float: right; */
+text-align: right;
+cursor: pointer;
+}
+
+
+input[type=text] {
+padding: 6px;
+margin-top: 8px;
+font-size: 17px;
+border: none
+
+}
+
+.search-container button {
+float: right;
+
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+/* background: #ddd; */
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+#first {
+display: flex;  
+
+}
+
+.fa-solid {
+color: salmon;
+}
+        /* .body1 {
+            background-color: #F4F4F4;
+        } */
+  
+     
+  
+  
+        .mainBox {
+            margin-left: 17%;
+            width: 82%;
+            height: 200%;
+            margin-top: 1%;
+            background-color: #FFFFFF;
+            background-repeat: unset;
+        }
+  
+        #medicine {
+            margin: auto;
+            text-align: center;
+            /* margin: 5% 5% 10% 5%; */
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            grid-gap: 5%;
+            justify-content: center;
+        }
+  
+        .body2 {
+            background-color: #FFFFFF;
+        }
+  
+        .containercart{
+            width: 80%;
+            margin: 3% auto;
+            background-color: #FFFFFF;
+        }
+        .cartBox {
+            width: 80%;
+            margin: 3% auto;
+            background-color: whitesmoke;
+        }
+  
+        .smallDiv {
+            width: 100%;
+            background-color: #F4F4F4;
+        }
+  
+        .small1 {
+            display: inline-block;
+            width: 40%;
+            margin-left: 3%;
+            font-size: 15px;
+        }
+  
+        .small2 {
+            display: inline-block;
+            width: 50%;
+            margin-left: 2%;
+            vertical-align: top;
+        }
+  
+        .cont1 {
+            width: 40%;
+            height: 40px;
+            background-color: #FFFFFF;
+            color: salmon;
+            border: 1px solid #666666;
+            cursor: pointer;
+            opacity: 0.8;
+            margin-top: 3%;
+            display: inline-block;
+        }
+  
+        .cont2 {
+            width: 30%;
+            height: 40px;
+            background-color: #FFFFFF;
+            font-size: 20px;
+            border: 1px solid #666666;
+            cursor: pointer;
+            opacity: 0.9;
+            margin-top: 1%;
+            margin-left: 2%;
+            display: inline-block;
+            
+            
+        }
+        .cont3 {
+            width: 15%;
+            height: 20px;
+            background-color: salmon;
+            font-size: 12px;
+            color: salmon;
+            border: none;
+            cursor: pointer;
+            opacity: 0.9;
+            margin-top: 1%;
+            margin-left: 2%;
+            display: inline-block;
+        }
+        input {
+            border: none;
+            outline: 0;
+            border-radius: 0;
+            border-bottom: 1px solid #b7b7b7;
+            transition: .6s;
+        }
+        .cont2:hover{
+            background-color: salmon;
+            font-weight: bolder;
+        }
+  
+        .a {
+            background-color: #F4F4F4;
+  
+        }
+        
+        .adressdiv{
+            border: transparent;
+            width: 30%;
+            height: 170px;
+            text-align: center;
+            margin-top: -140px;
+            margin-left: 140px;
+            background-color: #fff;
+            text-decoration: none;
+            color: black;
+        }
+        .btndiv{
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .addbtn{
+            background-color: salmon;
+            color: #F4F4F4;
+            cursor: pointer;
+            border: 0;
+            width: 60px;
+        }
+        .cont1 a{
+            text-decoration: none;
+        }
+        .cont2 a{
+            text-decoration: none;
+        }
+        .cont1:hover{
+          background-color: salmon;
+          font-weight: bolder;
+      }
+      .addbtn a{
+          text-decoration: none;
+          color: white;
+      }

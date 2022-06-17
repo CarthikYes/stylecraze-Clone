@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/537827fe1b.js" crossorigin="anonymous"></script>
+    <style>
+        header {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        #header {
+            
+            height: max-content;
+            margin: auto;
+            justify-content: space-around;
+            display: flex;
+            padding: 10px;
+            /* margin-top: 10px; */
+            text-align: center;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: sans-serif;
+            color: black;
+        }
+        #header > div {
+            
+            color: black; 
+            padding-right: 20px;
+            border-right: 2px solid red;
+            /* text-decoration: 0; */
+            
+        }
+        #header > div > a{
+            color: black;
+            text-decoration: 0;
+        }
+        #header > div:last-child {
+            border-right: 0;
+        }
+
+        
+.search-container {
+  /* float: right; */
+  text-align: right;
+  cursor: pointer;
+}
+
+
+ input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none
+  
+}
+
+ .search-container button {
+  float: right;
+  
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  /* background: #ddd; */
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#first {
+      display: flex;  
+      
+  }
+ 
+.fa-solid {
+    color: salmon;
+}
+@media all and (min-width: 381px) and (max-width: 700px) {
+   #header {
+     flex-wrap: wrap;
+     padding: 0;
+     margin: 0;
+   }
+   #header > div { 
+            padding-right: 0;   
+    }
+    header {
+      width: 100%;
+    }
+
+}
+
+@media all and (min-width: 50px) and (max-width: 380px) {
+  .search-container {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+  header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #header {
+    text-align: center;
+    /* flex-direction: column; */
+    display: block;
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  #header > div {
+   border-right: 0;
+  }
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+       
+    <div class="fi"><img id="" src="https://cdn2.stylecraze.com/wp-content/themes/buddyboss-child/images/sc-logo.png" alt=""></div>
+    
+        <div class="search-container">
+            <form action="/action_page.php">
+                <span>
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button></span>
+            </form>
+          </div><br>
+       
+    
+    <div id="header">
+        <div><a href="makeup.html">MAKEUP</a></div>
+        <div><a href="haircare.html">HAIR CARE</a></div>
+        <div><a href="skincare.html">SKIN CARE</a></div>
+        <div><a href="products.html">PRODUCTS</a></div>
+        <div><a href="cart.html">CART</a></div>
+        <div><a href="login.html">LOGIN</a></div>
+        
+    </div>
+</header>
+</body>
+</html>

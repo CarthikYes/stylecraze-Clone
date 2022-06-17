@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/payment.css" />
+    <title>Payment Gateway</title>
+  </head>
+  <body>
+    <header>
+      <nav class="pay-nav">
+        <div class="logo"><h1>PayUbiz</h1></div>
+      </nav>
+    </header>
+    <main>
+      <div class="Paycontainer">
+        <form id="formpay">
+          <label>Card Number</label>
+          <input type="text" id="cardNum" placeholder="Enter Card Number"/>
+          <label>CVV</label>
+          <input type="text" id="cvv" placeholder="###"/>
+          <label>Expiry</label>
+          <input type="text" id="exp" placeholder="MM/YYYY" />
+          <label>Name on Card</label>
+          <input type="text" id="name" placeholder="Name"/>
+          <input type="submit" value="Confirm" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="./script/paymentData.js"></script>
+<script src="./script/payment.js"></script>
