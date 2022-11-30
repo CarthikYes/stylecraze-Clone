@@ -39,11 +39,7 @@ I have completed this project in 7 days.
 
 [Click here](https://drive.google.com/file/d/1tr09fSfLtWZ4bl5IH3WOO911Xzx9PA0g/view?usp=sharing) to watch our project preview in a video format. 
 
-## Blog
 
-
-
-[Click here](https://medium.com/@anjalidhanjode28/masai-project-stylecraze-com-clone-f7624cd1085a) to read my project blog. 
 
 
 ## Screenshots
