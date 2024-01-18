@@ -1,9 +1,7 @@
 # Stylecraze-Clone
 
 # Clone of stylecraze.com
-This was my project for Unit-2 Construct week at Masai Shcool.
-My target was to complete all main functionality of E-commerce website have, such as sign up to till to the buying of a product.
-I have completed this project in 7 days.
+
 
 - [Click here](https://stylecraze.netlify.app) to see preview of my project.
 
